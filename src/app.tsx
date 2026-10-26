@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Activity, ArrowDownToLine, AudioLines, Check, ChevronDown, Clapperboard, Clock3, Download, Film, FolderOpen, Globe2, HelpCircle, ImagePlus, Languages, LayoutDashboard, Lightbulb, Monitor, Moon, MoreHorizontal, Play, Plus, Save, Settings2, Sparkles, Smartphone, Tablet, Trash2, Upload, WandSparkles, X } from 'lucide-react'
+import { External, Search, ExternalLink, Activity, ArrowDownToLine, AudioLines, Check, ChevronDown, Clapperboard, Clock3, Download, Film, FolderOpen, Globe2, HelpCircle, ImagePlus, Languages, LayoutDashboard, Lightbulb, Monitor, Moon, MoreHorizontal, Play, Plus, Save, Settings2, Sparkles, Smartphone, Tablet, Trash2, Upload, WandSparkles, X } from 'lucide-react'
 
 type Clip = { id: string; name: string; url: string; file: File; duration: number }
 type Project = { id: string; name: string; idea: string; style: string; language: string; ratio: string; intensity: string; caption: string; title: string; subtitle: string; clips: {name:string; fileName:string; duration:number}[]; updated: number }
